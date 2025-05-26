@@ -6,29 +6,24 @@ const writeFiles = require("./modules/write");
 
 const app = express();
 app.use(cors());
+app.get("/favicon.ico", (req, res) => res.status(204).end());
 
-app.get("/:nome", async (req, res) => {
+app.get("/escrever/:nome", async (req, res) => {
   try {
     const nomeArquivo = req.params.nome;
     const conteudo = await readFile(nomeArquivo);
+    const linhas = conteudo.split("\n").filter(Boolean);
 
-    trataTexto(conteudo);
+    const nomesFormatados = linhas.map((nomeCompleto) => ({
+      nome: nomeCompleto.trim(),
+    }));
 
-    async function trataTexto(texto) {
-      const regexNomes =
-        /\b[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+\b/g;
-      const nomes = texto.match(regexNomes) || [];
+    const arquivoFinal = await writeFiles("test2.json", nomesFormatados);
 
-      const nomesFormatados = nomes.map((nomeCompleto) => ({
-        nome: nomeCompleto.trim(),
-      }));
-
-      const file = await writeFiles("test2.json", nomesFormatados);
-
-      res.json(file);
-    }
+    res.json("Arquivo criado com sucesso", arquivoFinal);
   } catch (error) {
     res.status(500).json({ erro: error.message });
+    console.log(error);
   }
 });
 
