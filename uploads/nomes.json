@@ -1,7 +1,7 @@
 [
     {
         "nome": "Kevin Walter Godói Igreja",
-        "list": true
+        "list": false
     },
     {
         "nome": "Christopher José de Assunção Neto",
@@ -9,7 +9,7 @@
     },
     {
         "nome": "Felipe Francisco de Brito Sobrinho",
-        "list": true
+        "list": false
     },
     {
         "nome": "Hernani Jairo de Burgos Filho",
@@ -17,7 +17,7 @@
     },
     {
         "nome": "Mário Otto de Chaves Filho",
-        "list": true
+        "list": false
     },
     {
         "nome": "Agostinho Grego da Paraíba",
@@ -25,7 +25,7 @@
     },
     {
         "nome": "Felícia Vanessa de Ortega",
-        "list": true
+        "list": false
     },
     {
         "nome": "Vitória Maísa Chaves",
@@ -33,7 +33,7 @@
     },
     {
         "nome": "Fabiana Leal de Moreira",
-        "list": true
+        "list": false
     },
     {
         "nome": "Leonardo Batista Carrara Gonçalves",
@@ -57,7 +57,7 @@
     },
     {
         "nome": "Ney Sérgio D ávila de Freitas",
-        "list": true
+        "list": false
     },
     {
         "nome": "Lígia Vitória Galvão Marin",
