@@ -1,7 +1,7 @@
 const fs = require("fs").promises;
 const path = require("path");
 
-async function writeFiles(arquivo, conteudo, pasta = "Uploads") {
+async function writeFiles(arquivo, conteudo, pasta = "uploads") {
   try {
     const rootDir = path.resolve(__dirname, "../Uploads", arquivo);
 

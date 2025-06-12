@@ -1,7 +1,7 @@
 const fs = require("fs").promises;
 const path = require("path");
 
-async function findFiles(pasta = "Uploads") {
+async function findFiles(pasta = "uploads") {
   try {
     const rootDir = path.resolve(__dirname, "../", pasta);
     const files = await fs.readdir(rootDir);
