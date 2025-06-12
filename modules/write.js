@@ -3,7 +3,7 @@ const path = require("path");
 
 async function writeFiles(arquivo, conteudo, pasta = "uploads") {
   try {
-    const rootDir = path.resolve(__dirname, "../Uploads", arquivo);
+    const rootDir = path.resolve(__dirname, "../uploads", arquivo);
 
     let data;
     if (typeof conteudo === "string") {
