@@ -9,8 +9,18 @@ const writeFiles = require("./modules/write");
 
 const app = express();
 
+let StyleConfig = {
+  title: "Edição Nº - Restaurante: ",
+  color: "#000000",
+  logo: "/uploads/logo.png",
+  backgroundType: "color",
+  backgroundValue: "#40e0d0",
+};
+
 app.use(cors());
 app.use(express.json());
+
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 app.get("/favicon.ico", (req, res) => res.status(204).end());
 
@@ -257,6 +267,15 @@ app.get("/relatorio/download", async (req, res) => {
     console.error("Erro ao gerar PDF:", error);
     res.status(500).send("Erro ao gerar PDF");
   }
+});
+
+app.get("/style", (req, res) => {
+  res.json(StyleConfig);
+});
+
+app.post("/style", (req, res) => {
+  StyleConfig = req.body;
+  res.json({ message: "Configuração atualizada com sucesso!" });
 });
 
 const PORT = process.env.PORT || 3001;
