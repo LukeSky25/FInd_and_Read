@@ -1,4 +1,3 @@
 ---
-###
-API que procura, lê e escreve em arquivos
-#
+# API de Sorteio do Jantar e Negócios
+---
