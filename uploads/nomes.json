@@ -13,11 +13,11 @@
     },
     {
         "nome": "Larry Ellison",
-        "list": false
+        "list": true
     },
     {
         "nome": "Bernard Arnault e família",
-        "list": true
+        "list": false
     },
     {
         "nome": "Warren Buffett",
@@ -33,7 +33,7 @@
     },
     {
         "nome": "Amancio Ortega",
-        "list": true
+        "list": false
     },
     {
         "nome": "Steve Ballmer",
@@ -41,7 +41,7 @@
     },
     {
         "nome": "Rob Walton e família",
-        "list": true
+        "list": false
     },
     {
         "nome": "Jim Walton e família",
@@ -57,7 +57,7 @@
     },
     {
         "nome": "Alice Walton",
-        "list": true
+        "list": false
     },
     {
         "nome": "Jensen Huang",
@@ -77,7 +77,7 @@
     },
     {
         "nome": "Francoise Bettencourt Meyers e família",
-        "list": false
+        "list": true
     },
     {
         "nome": "Julia Koch e família",
@@ -101,7 +101,7 @@
     },
     {
         "nome": "Zhong Shanshan",
-        "list": false
+        "list": true
     },
     {
         "nome": "Thomas Peterffy",
@@ -125,19 +125,19 @@
     },
     {
         "nome": "Lei Jun",
-        "list": true
+        "list": false
     },
     {
         "nome": "Jacqueline Mars",
-        "list": true
+        "list": false
     },
     {
         "nome": "John Mars",
-        "list": true
+        "list": false
     },
     {
         "nome": "Ken Griffin",
-        "list": false
+        "list": true
     },
     {
         "nome": "Colin Huang",
@@ -153,11 +153,11 @@
     },
     {
         "nome": "Klaus-Michael Kuehne",
-        "list": false
+        "list": true
     },
     {
         "nome": "Li Ka-shing",
-        "list": true
+        "list": false
     },
     {
         "nome": "Giovanni Ferrero",
@@ -165,7 +165,7 @@
     },
     {
         "nome": "Lukas Walton",
-        "list": true
+        "list": false
     },
     {
         "nome": "Robin Zeng",
@@ -197,7 +197,7 @@
     },
     {
         "nome": "Reinhold Wuerth e família",
-        "list": true
+        "list": false
     },
     {
         "nome": "Shiv Nadar",
@@ -225,7 +225,7 @@
     },
     {
         "nome": "Marilyn Simons e família",
-        "list": false
+        "list": true
     },
     {
         "nome": "Melinda French Gates",
@@ -237,7 +237,7 @@
     },
     {
         "nome": "Masayoshi Son",
-        "list": true
+        "list": false
     },
     {
         "nome": "Gina Rinehart",
@@ -253,7 +253,7 @@
     },
     {
         "nome": "Alexey Mordashov e família",
-        "list": false
+        "list": true
     },
     {
         "nome": "Germán Larrea Mota Velasco e família",
@@ -261,7 +261,7 @@
     },
     {
         "nome": "Leonid Mikhelson e família",
-        "list": true
+        "list": false
     },
     {
         "nome": "Elaine Marshall e família",
@@ -273,7 +273,7 @@
     },
     {
         "nome": "MacKenzie Scott",
-        "list": true
+        "list": false
     },
     {
         "nome": "Iris Fontbona e família",
@@ -289,7 +289,7 @@
     },
     {
         "nome": "Thomas Frist, Jr. e família",
-        "list": true
+        "list": false
     },
     {
         "nome": "He Xiangjian e família",
@@ -301,15 +301,15 @@
     },
     {
         "nome": "Wang Chuanfu",
-        "list": true
+        "list": false
     },
     {
         "nome": "Lyndal Stephens Greth e família",
-        "list": true
+        "list": false
     },
     {
         "nome": "Susanne Klatten",
-        "list": true
+        "list": false
     },
     {
         "nome": "Dilip Shanghvi",
@@ -337,19 +337,19 @@
     },
     {
         "nome": "Gennady Timchenko",
-        "list": true
+        "list": false
     },
     {
         "nome": "Cyrus Poonawalla",
-        "list": true
+        "list": false
     },
     {
         "nome": "Rupert Murdoch e família",
-        "list": true
+        "list": false
     },
     {
         "nome": "John Menard, Jr.",
-        "list": false
+        "list": true
     },
     {
         "nome": "Idan Ofer",
@@ -357,11 +357,11 @@
     },
     {
         "nome": "Giancarlo Devasini",
-        "list": true
+        "list": false
     },
     {
         "nome": "R. Budi Hartono",
-        "list": false
+        "list": true
     },
     {
         "nome": "Diane Hendricks",
@@ -393,7 +393,7 @@
     },
     {
         "nome": "Lu Xiangyang",
-        "list": true
+        "list": false
     },
     {
         "nome": "Prajogo Pangestu",

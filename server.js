@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const PDFDocument = require("pdfkit");
 const cors = require("cors");
+const multer = require("multer");
 
 // Importe dos Módulos
 
@@ -294,6 +295,20 @@ app.get("/relatorio/download", async (req, res) => {
       year: "numeric",
     });
 
+    // Lê o styleConfig antes de gerar o PDF
+
+    const styleConfig = loadStyleConfig();
+
+    // Extrai o nome do restaurante do título
+
+    // let restaurante = "Restaurante Desconhecido"; // valor padrão
+    // const match = styleConfig.title.match(/Restaurante:\s*(.*)/);
+    // if (match && match[1]) {
+    //   restaurante = match[1].trim();
+    // }
+
+    const restaurante = styleConfig.title;
+
     // Cria o documento .pdf
 
     const doc = new PDFDocument({ size: "A4", margin: 50 });
@@ -319,7 +334,7 @@ app.get("/relatorio/download", async (req, res) => {
       doc
         .fontSize(18)
         .font("Times-Bold")
-        .text("Relatorio: El Uruguayo", { align: "center" });
+        .text(restaurante, { align: "center" });
 
       // 2. Data e hora
 
@@ -373,20 +388,61 @@ app.get("/relatorio/download", async (req, res) => {
   }
 });
 
-// Envia as configurações de estilo
+// Configurações de Estilo
+
+const STYLE_CONFIG_PATH = path.join(__dirname, "uploads", "styleConfig.json");
+
+// Função para ler styleConfig do arquivo
+
+const loadStyleConfig = () => {
+  try {
+    const data = fs.readFileSync(STYLE_CONFIG_PATH, "utf8");
+    return JSON.parse(data);
+  } catch (err) {
+    console.error("Erro ao ler styleConfig:", err);
+    return {
+      title: "Edição Nº - Restaurante: ",
+      color: "#000000",
+      logo: "",
+      backgroundType: "color",
+      backgroundValue: "#40e0d0",
+    };
+  }
+};
+
+// Função para salvar styleConfig no arquivo
+
+const saveStyleConfig = (config) => {
+  fs.writeFileSync(STYLE_CONFIG_PATH, JSON.stringify(config, null, 2), "utf8");
+};
+
+// GET atualiza o valor do StyleConfig lendo do arquivo
 
 app.get("/style", (req, res) => {
-  res.json(StyleConfig);
+  const style = loadStyleConfig();
+  res.json(style);
 });
 
-// Recebe as configurações de estilo
+// POST salva o novo styleConfig no arquivo
 
 app.post("/style", (req, res) => {
-  StyleConfig = req.body;
-  res.json({ message: "Configuração atualizada com sucesso!" });
+  const newStyle = req.body;
+  saveStyleConfig(newStyle);
+  res.json({ message: "Configuração de estilo salva com sucesso!" });
 });
 
-// Armazena as imagens em /uploads
+// Armazena as imagens em /uploads/imagens
+
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => cb(null, "uploads/images"),
+  filename: (req, file, cb) => cb(null, Date.now() + "-" + file.originalname),
+});
+
+const upload = multer({ storage });
+
+app.post("/upload", upload.single("file"), (req, res) => {
+  res.json({ filePath: `/uploads/images/${req.file.filename}` });
+});
 
 // Configuração ds porta para subir a API
 
