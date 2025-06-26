@@ -1,402 +1,282 @@
 [
     {
-        "nome": "Elon Musk",
+        "nome": "AHMET DINCTOPAL",
+        "list": false
+    },
+    {
+        "nome": "ALEXANDRE CAMPOLI",
         "list": true
     },
     {
-        "nome": "Mark Zuckerberg",
+        "nome": "ALEXANDRE CASTILHO CAMPOLI JUNIOR",
         "list": false
     },
     {
-        "nome": "Jeff Bezos",
+        "nome": "ANTÔNIO GARUTTI",
         "list": false
     },
     {
-        "nome": "Larry Ellison",
+        "nome": "BENTO FERRAZ",
+        "list": false
+    },
+    {
+        "nome": "CARLOS PICOS",
+        "list": false
+    },
+    {
+        "nome": "CAROLINE BRANDT",
+        "list": false
+    },
+    {
+        "nome": "CHAUL",
+        "list": false
+    },
+    {
+        "nome": "CINTHIA MACHADO CÂNDIDO",
+        "list": false
+    },
+    {
+        "nome": "CLAUDIA CRISTINA",
+        "list": false
+    },
+    {
+        "nome": "CLAUDIANE JAMAS",
+        "list": false
+    },
+    {
+        "nome": "CORONEL EDUARDO ESPOSITO",
+        "list": false
+    },
+    {
+        "nome": "CRISTINA SOUZA",
+        "list": false
+    },
+    {
+        "nome": "FÁBIO",
+        "list": false
+    },
+    {
+        "nome": "FERNANDO ESPINDOLA",
+        "list": false
+    },
+    {
+        "nome": "FERNANDO ESPINDOLA FILHO",
+        "list": false
+    },
+    {
+        "nome": "FILIPE COSTA OLIVEIRA FREITAS",
+        "list": false
+    },
+    {
+        "nome": "FLÁVIO FUJIMOTO",
+        "list": false
+    },
+    {
+        "nome": "GERALDO MICHELOTTI",
+        "list": false
+    },
+    {
+        "nome": "GUILHERME INOCENCIO",
+        "list": false
+    },
+    {
+        "nome": "GISLANE GANDRA LIMA",
+        "list": false
+    },
+    {
+        "nome": "ITAMAR ALVES",
+        "list": false
+    },
+    {
+        "nome": "JESSICA PEREIRA OLIVEIRA",
+        "list": false
+    },
+    {
+        "nome": "JOÃO BOSCO",
+        "list": false
+    },
+    {
+        "nome": "JOÃO MARCOS DOLABANI PORT",
+        "list": false
+    },
+    {
+        "nome": "JOÃO PAULO",
+        "list": false
+    },
+    {
+        "nome": "JOSÉ ALCIDES MUNHOZ",
+        "list": false
+    },
+    {
+        "nome": "JOSÉ NILTON",
         "list": true
     },
     {
-        "nome": "Bernard Arnault e família",
+        "nome": "JOSÉ ROBERTO MARTINS SANTOS",
         "list": false
     },
     {
-        "nome": "Warren Buffett",
+        "nome": "JULIO AIDAR",
         "list": false
     },
     {
-        "nome": "Larry Page",
+        "nome": "KEVIN ESCOBAR ARROYO",
         "list": false
     },
     {
-        "nome": "Sergey Brin",
+        "nome": "LEONARDO FIGUEIREDO AGNOLIN",
         "list": false
     },
     {
-        "nome": "Amancio Ortega",
-        "list": false
-    },
-    {
-        "nome": "Steve Ballmer",
-        "list": false
-    },
-    {
-        "nome": "Rob Walton e família",
-        "list": false
-    },
-    {
-        "nome": "Jim Walton e família",
-        "list": false
-    },
-    {
-        "nome": "Bill Gates",
-        "list": false
-    },
-    {
-        "nome": "Michael Bloomberg",
-        "list": false
-    },
-    {
-        "nome": "Alice Walton",
-        "list": false
-    },
-    {
-        "nome": "Jensen Huang",
+        "nome": "LINCOLN COSTA",
         "list": true
     },
     {
-        "nome": "Michael Dell",
+        "nome": "LUIS CLAUDIO LEDESMA",
         "list": false
     },
     {
-        "nome": "Mukesh Ambani",
+        "nome": "LUIS PROCÓPIO",
         "list": false
     },
     {
-        "nome": "Carlos Slim Helu e família",
+        "nome": "LUIZ CARLOS",
         "list": false
     },
     {
-        "nome": "Francoise Bettencourt Meyers e família",
+        "nome": "MARCO ANTÔNIO IGNÁCIO",
+        "list": false
+    },
+    {
+        "nome": "MARCOS ANTôNIO GANDRA",
         "list": true
     },
     {
-        "nome": "Julia Koch e família",
+        "nome": "MARCOS MERINO",
         "list": false
     },
     {
-        "nome": "Charles Koch e família",
+        "nome": "MARINA HELENA CAMPOS",
         "list": false
     },
     {
-        "nome": "Zhang Yiming",
+        "nome": "MARLI GALDIANO",
         "list": false
     },
     {
-        "nome": "Changpeng Zhao",
+        "nome": "MAURÍCIO NUNES",
         "list": false
     },
     {
-        "nome": "Jeff Yass",
+        "nome": "MOISÉS ARRUDA",
         "list": false
     },
     {
-        "nome": "Zhong Shanshan",
+        "nome": "OTÁVIO AUGUSTO S MUNHOZ",
         "list": true
     },
     {
-        "nome": "Thomas Peterffy",
+        "nome": "RAFAEL CATARINA",
         "list": false
     },
     {
-        "nome": "Gautam Adani",
+        "nome": "RAHMAN BAGYROV",
         "list": false
     },
     {
-        "nome": "Ma Huateng",
+        "nome": "RICARDO CORDEIRO BRANCO SOUZA",
         "list": false
     },
     {
-        "nome": "Tadashi Yanai e família",
+        "nome": "RICARDO REIS",
         "list": false
     },
     {
-        "nome": "Stephen Schwarzman",
+        "nome": "RICARDO SOUZA PAIXÃO",
         "list": false
     },
     {
-        "nome": "Lei Jun",
+        "nome": "RONALDO VON",
         "list": false
     },
     {
-        "nome": "Jacqueline Mars",
-        "list": false
-    },
-    {
-        "nome": "John Mars",
-        "list": false
-    },
-    {
-        "nome": "Ken Griffin",
+        "nome": "ROSALIA DANTAS",
         "list": true
     },
     {
-        "nome": "Colin Huang",
+        "nome": "MARCELO CABRAL",
+        "list": false
+    },
+    {
+        "nome": "SILVIO MIGLIO",
         "list": true
     },
     {
-        "nome": "Dieter Schwarz",
+        "nome": "SOUZA ARISA",
         "list": false
     },
     {
-        "nome": "Mark Mateschitz",
+        "nome": "SUELI CAMPOLI",
         "list": false
     },
     {
-        "nome": "Klaus-Michael Kuehne",
+        "nome": "THAIS A. CAROTTI PERES",
+        "list": false
+    },
+    {
+        "nome": "THAMIRIS DUARTE SOUZA",
+        "list": false
+    },
+    {
+        "nome": "VITOR ONOFRE",
+        "list": false
+    },
+    {
+        "nome": "WALTER ONOFRE",
         "list": true
     },
     {
-        "nome": "Li Ka-shing",
+        "nome": "SONIA",
         "list": false
     },
     {
-        "nome": "Giovanni Ferrero",
+        "nome": "WESLEY ARAUJO",
         "list": false
     },
     {
-        "nome": "Lukas Walton",
+        "nome": "WILSON FELIPE DORACIO",
         "list": false
     },
     {
-        "nome": "Robin Zeng",
+        "nome": "LUIS SOUZA",
         "list": false
     },
     {
-        "nome": "Gianluigi Aponte",
-        "list": false
-    },
-    {
-        "nome": "Rafaela Aponte-Diamant",
-        "list": false
-    },
-    {
-        "nome": "Alain Wertheimer",
-        "list": false
-    },
-    {
-        "nome": "Gerard Wertheimer",
-        "list": false
-    },
-    {
-        "nome": "Savitri Jindal e família",
-        "list": false
-    },
-    {
-        "nome": "Phil Knight e família",
-        "list": false
-    },
-    {
-        "nome": "Reinhold Wuerth e família",
-        "list": false
-    },
-    {
-        "nome": "Shiv Nadar",
-        "list": false
-    },
-    {
-        "nome": "Eduardo Saverin",
-        "list": false
-    },
-    {
-        "nome": "Andrea Pignataro",
-        "list": false
-    },
-    {
-        "nome": "William Ding",
-        "list": false
-    },
-    {
-        "nome": "Abigail Johnson",
-        "list": false
-    },
-    {
-        "nome": "Miriam Adelson e família",
-        "list": false
-    },
-    {
-        "nome": "Marilyn Simons e família",
+        "nome": "MINAS KERBEYIKIAN",
         "list": true
     },
     {
-        "nome": "Melinda French Gates",
+        "nome": "LUIS RICARDO LEDESMA",
         "list": false
     },
     {
-        "nome": "Len Blavatnik",
+        "nome": "AUDENI BOM",
         "list": false
     },
     {
-        "nome": "Masayoshi Son",
+        "nome": "HELLEN SOARES",
         "list": false
     },
     {
-        "nome": "Gina Rinehart",
+        "nome": "FRANCISCO GAETA",
         "list": false
     },
     {
-        "nome": "Vagit Alekperov",
+        "nome": "LUIS MANCUSO",
         "list": false
     },
     {
-        "nome": "Jack Ma",
-        "list": false
-    },
-    {
-        "nome": "Alexey Mordashov e família",
-        "list": true
-    },
-    {
-        "nome": "Germán Larrea Mota Velasco e família",
-        "list": false
-    },
-    {
-        "nome": "Leonid Mikhelson e família",
-        "list": false
-    },
-    {
-        "nome": "Elaine Marshall e família",
-        "list": false
-    },
-    {
-        "nome": "Eyal Ofer",
-        "list": false
-    },
-    {
-        "nome": "MacKenzie Scott",
-        "list": false
-    },
-    {
-        "nome": "Iris Fontbona e família",
-        "list": false
-    },
-    {
-        "nome": "Daniel Gilbert",
-        "list": false
-    },
-    {
-        "nome": "Low Tuck Kwong",
-        "list": false
-    },
-    {
-        "nome": "Thomas Frist, Jr. e família",
-        "list": false
-    },
-    {
-        "nome": "He Xiangjian e família",
-        "list": false
-    },
-    {
-        "nome": "Vladimir Lisin",
-        "list": false
-    },
-    {
-        "nome": "Wang Chuanfu",
-        "list": false
-    },
-    {
-        "nome": "Lyndal Stephens Greth e família",
-        "list": false
-    },
-    {
-        "nome": "Susanne Klatten",
-        "list": false
-    },
-    {
-        "nome": "Dilip Shanghvi",
-        "list": false
-    },
-    {
-        "nome": "Emmanuel Besnier",
-        "list": false
-    },
-    {
-        "nome": "Vladimir Potanin",
-        "list": false
-    },
-    {
-        "nome": "Eric Schmidt",
-        "list": false
-    },
-    {
-        "nome": "Aliko Dangote",
-        "list": false
-    },
-    {
-        "nome": "Stefan Quandt",
-        "list": false
-    },
-    {
-        "nome": "Gennady Timchenko",
-        "list": false
-    },
-    {
-        "nome": "Cyrus Poonawalla",
-        "list": false
-    },
-    {
-        "nome": "Rupert Murdoch e família",
-        "list": false
-    },
-    {
-        "nome": "John Menard, Jr.",
-        "list": true
-    },
-    {
-        "nome": "Idan Ofer",
-        "list": false
-    },
-    {
-        "nome": "Giancarlo Devasini",
-        "list": false
-    },
-    {
-        "nome": "R. Budi Hartono",
-        "list": true
-    },
-    {
-        "nome": "Diane Hendricks",
-        "list": false
-    },
-    {
-        "nome": "François Pinault e família",
-        "list": false
-    },
-    {
-        "nome": "Michael Hartono",
-        "list": false
-    },
-    {
-        "nome": "Steve Cohen",
-        "list": false
-    },
-    {
-        "nome": "David Tepper",
-        "list": false
-    },
-    {
-        "nome": "Kumar Birla",
-        "list": false
-    },
-    {
-        "nome": "Vicky Safra e família",
-        "list": false
-    },
-    {
-        "nome": "Lu Xiangyang",
-        "list": false
-    },
-    {
-        "nome": "Prajogo Pangestu",
+        "nome": "VINNY VIEIRA",
         "list": false
     }
 ]

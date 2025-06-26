@@ -286,6 +286,10 @@ app.get("/relatorio/download", async (req, res) => {
 
     const nomes = conteudo.split("\n").filter(Boolean);
 
+    // Quantidade de staffs
+
+    const staffs = 21;
+
     // Pega a data do dia e a adequa para dd/mm/yyyy, pt-BR
 
     const data = new Date();
@@ -350,13 +354,18 @@ app.get("/relatorio/download", async (req, res) => {
 
       if (linhas[2]) {
         doc.moveDown(1);
-        doc.font("Times-Roman").text(`Total de Participantes: ${nomes.length}`);
+        doc.font("Times-Roman").text(`Total de Convidados: ${nomes.length}`);
       }
+
       if (linhas[3]) {
-        doc.text(`Total de Sorteados: ${linhas.length}`);
+        doc.text(`Total de Staffs: ${staffs}`);
       }
 
       if (linhas[4]) {
+        doc.text(`Total de Sorteados: ${linhas.length}`);
+      }
+
+      if (linhas[5]) {
         doc.text("Nomes Sorteados: ");
         doc.moveDown(0.5);
       }
@@ -372,7 +381,7 @@ app.get("/relatorio/download", async (req, res) => {
           doc.moveDown(0.5);
           iniciouLista = true;
         } else {
-          doc.font("Times-Roman").text(`- ${linha}`);
+          doc.font("Times-Roman").text(`${i + 1}. ${linha}`);
         }
       }
     }
